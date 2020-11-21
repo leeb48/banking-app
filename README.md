@@ -26,9 +26,11 @@
 - [About the Project](#about-the-project)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
+  - [Setting up Plaid Client](#Setting-up-Plaid-Client)
+  - [Setting up Mongo DB](#Setting-up-Mongo-DB)
+  - [(option 1) Running the app with Docker Compose](<#(option-1)-Running-the-app-with-Docker-Compose>)
+  - [(option 2) Running the app with npm](<#(option-2)-Running-the-app-with-npm>)
+- [Testing](#Testing)
 - [Roadmap](#roadmap)
 - [Contact](#contact)
 
@@ -36,7 +38,7 @@
 
 ## About The Project
 
-Link to working demo here
+[Link to working demo here]()
 
 Click below to see a video of the app.
 [![Link to demo](http://img.youtube.com/vi/YMFq5zJW_OA/0.jpg)](https://www.youtube.com/watch?v=YMFq5zJW_OA&ab_channel=BongLee)
