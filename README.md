@@ -26,11 +26,11 @@
 - [About the Project](#about-the-project)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
-  - [Setting up Plaid Client](#Setting-up-Plaid-Client)
-  - [Setting up Mongo DB](#Setting-up-Mongo-DB)
-  - [(option 1) Running the app with Docker Compose](<#(option-1)-Running-the-app-with-Docker-Compose>)
-  - [(option 2) Running the app with npm](<#(option-2)-Running-the-app-with-npm>)
-- [Testing](#Testing)
+  - [Setting up Plaid Client](#setting-up-plaid-client)
+  - [Setting up Mongo DB](#setting-up-mongo-db)
+  - [(option 1) Running the app with Docker Compose](#option-1-running-the-app-with-docker-compose)
+  - [(option 2) Running the app with npm](#option-2-running-the-app-with-npm)
+- [Testing](#testing)
 - [Roadmap](#roadmap)
 - [Contact](#contact)
 
@@ -38,7 +38,7 @@
 
 ## About The Project
 
-[Link to working demo here]()
+[Link to working demo here](http://bankingapp-env.eba-hrqnypj4.us-west-1.elasticbeanstalk.com/)
 
 Click below to see a video of the app.
 [![Link to demo](http://img.youtube.com/vi/YMFq5zJW_OA/0.jpg)](https://www.youtube.com/watch?v=YMFq5zJW_OA&ab_channel=BongLee)
@@ -218,36 +218,3 @@ To run automated tests you must install _devDependencies_ in the backend directo
 Bong Lee - bongsoolee91@gmail.com
 
 Project Link: [https://github.com/leeb48/banking-app](https://github.com/leeb48/banking-app)
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## Acknowledgements
-
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Img Shields](https://shields.io)
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Pages](https://pages.github.com)
-- [Animate.css](https://daneden.github.io/animate.css)
-- [Loaders.css](https://connoratherton.com/loaders)
-- [Slick Carousel](https://kenwheeler.github.io/slick)
-- [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-- [Sticky Kit](http://leafo.net/sticky-kit)
-- [JVectorMap](http://jvectormap.com)
-- [Font Awesome](https://fontawesome.com)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
