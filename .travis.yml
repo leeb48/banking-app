@@ -22,7 +22,7 @@ deploy:
   env: BankingApp-env
   bucket_name: elasticbeanstalk-us-west-1-278374142069
   bucket_path: banking-app
-  on:
-    branch: main
+  # on:
+  #   branch: main
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
