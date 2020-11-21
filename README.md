@@ -203,6 +203,8 @@ Open up a second terminal and run the command.
 cd backend && npm start
 ```
 
+The project should be running on [http://localhost:3000](http://localhost:3000)
+
 ### Testing
 
 To run automated tests you must install _devDependencies_ in the backend directory. Testing should only be done in Plaid's sandbox mode. Make sure the Plaid environment is set to sandbox and the PLAID_CLIENT_ID and PLAID_SECRET. Automated tests are only currently written for backend Express routes.
