@@ -1,0 +1,30 @@
+version: "3"
+services:
+  nginx:
+    depends_on:
+      - backend
+      - client
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: ./nginx
+    environment:
+      PORT: 80
+    ports:
+      - "80:80"
+
+  backend:
+    build:
+      dockerfile: Dockerfile
+      context: ./backend
+    environment:
+      JWT_KEY: "helloworld"
+      MONGO_ATLAS: ${MONGO_ATLAS}
+      PLAID_CLIENT_ID: ${PLAID_CLIENT_ID}
+      PLAID_SECRET: ${PLAID_SECRET}
+
+  client:
+    stdin_open: true
+    build:
+      dockerfile: Dockerfile
+      context: ./client

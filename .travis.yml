@@ -1,0 +1,28 @@
+sudo: required
+language: generic
+
+services:
+  - docker
+
+after_success:
+  - docker build -t bongster228/banking-app-backend ./backend
+  - docker build -t bongster228/banking-app-client ./client
+  - docker build -t bongster228/banking-app-nginx ./nginx
+
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+
+  - docker push bongster228/banking-app-backend
+  - docker push bongster228/banking-app-client
+  - docker push bongster228/banking-app-nginx
+
+deploy:
+  provider: elasticbeanstalk
+  region: us-west-1
+  app: banking-app
+  env: BankingApp-env
+  bucket_name: elasticbeanstalk-us-west-1-278374142069
+  bucket_path: banking-app
+  on:
+    branch: main
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
