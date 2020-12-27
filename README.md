@@ -38,8 +38,6 @@
 
 ## About The Project
 
-[Link to working demo here](http://bankingapp-env.eba-hrqnypj4.us-west-1.elasticbeanstalk.com/)
-
 Click below to see a video of the app.
 
 [![Link to demo](http://img.youtube.com/vi/YMFq5zJW_OA/0.jpg)](https://www.youtube.com/watch?v=YMFq5zJW_OA&ab_channel=BongLee)
